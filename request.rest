@@ -1,0 +1,28 @@
+GET http://127.0.0.1:3500/teams
+###
+
+GET http://127.0.0.1:3500/teams/639f149fe78eb9b922a74c4f
+
+###
+POST http://127.0.0.1:3500/teams
+Content-Type: application/json
+
+{
+    "name" : "Fahmi",
+    "hobby" : "Workout",
+    "skill" : "Javascript",
+    "noHp" : 628967542333
+}
+
+###
+PATCH http://127.0.0.1:3500/teams/639f149fe78eb9b922a74c4f
+Content-Type: application/json
+
+{
+    "name" : "Ajie",
+    "hobby" : "Workout",
+    "skill" : "Javascript",
+    "noHp" : 628967542333
+}
+### 
+DELETE http://127.0.0.1:3500/teams/639f149fe78eb9b922a74c4f
